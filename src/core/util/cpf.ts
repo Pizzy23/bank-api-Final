@@ -1,3 +1,6 @@
+import {  Injectable } from "@nestjs/common";
+
+@Injectable()
 export class CpfVeri {
     primeiroDigito: number;
     segundoDigito: number;

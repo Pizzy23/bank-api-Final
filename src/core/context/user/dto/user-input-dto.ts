@@ -19,4 +19,8 @@ export class UserInputDto{
     @ApiProperty()
     @IsString()
     email: string;
+
+    @IsOptional()
+    @IsNumber()
+    conta: number;
 }
