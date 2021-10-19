@@ -45,9 +45,9 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-##Regras De Negocio
-###** Usuario:**
- + ####1. Criar Usuario;
+## Regras De Negocio
+### Usuario:
+ + #### 1. Criar Usuario;
   * 1.1 Usuario não pode existir na base de dados
     * 1.2 Criar conta;
       * 1.2.1 Conta inicial tera o valor de 0;
@@ -57,7 +57,7 @@ $ npm run start:prod
         *   1.2.2.3 Retorna status 406, O CPF é invalido;
       * 1.2.3 Retorna 201, Usuario criado;
 
-+ ####2.Buscar Usuario na base pelo cpf;
++ #### 2.Buscar Usuario na base pelo cpf;
   * 2.1 CPF tende de ser unico e valido;
      * 2.1.1 Retorna status 406, O CPF é invalido;
   * 2.2 Retorna 200, Dados de Usuario;
