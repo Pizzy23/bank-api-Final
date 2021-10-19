@@ -81,6 +81,6 @@ $ npm run start:prod
 	   
 + #### Banco de dados ja incluido dentro do projeto
 
-+ ###Feito por:
++ ### Feito por:
 * Insta: [Zero](http://instagram.com/zero_raven23/ "Zero")
 * E-mail:  luizcavina@gmail.com
