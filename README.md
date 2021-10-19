@@ -46,7 +46,7 @@ $ npm run start:prod
 ```
 
 ## Regras De Negocio
-### ** Usuario:**
+### Usuario:
  + #### 1. Criar Usuario;
   * 1.1 Usuario não pode existir na base de dados
     * 1.2 Criar conta;
