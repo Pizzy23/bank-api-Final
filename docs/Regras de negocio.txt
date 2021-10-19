@@ -27,9 +27,9 @@ Sacar e depositar:
  //Valores para depositos não podem ser negativos;
 =//===//===//===//===//===//===//===//==
 Transferencia:
- Valores não podem ser maiores que saldo atual; Deposito, Sacar.
- Não pode transferir para o mesmo cpf;
- Não pode transferir para o cpf que não exista;
+ //Valores não podem ser maiores que saldo atual; Deposito, Sacar.
+ //Não pode transferir para o mesmo cpf;
+ //Não pode transferir para o cpf que não exista;
  //6 Digitos cada numero sera aleatorio e multiplicado por 2, e dividido por 4;
 =//===//===//===//===//===//===//===//==
 

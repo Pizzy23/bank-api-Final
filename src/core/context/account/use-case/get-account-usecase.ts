@@ -2,7 +2,7 @@ import { Repository } from "typeorm";
 import { Injectable, NotFoundException } from "@nestjs/common";
 import { InjectRepository } from "@nestjs/typeorm";
 import { AccountEntity } from "../entity/account.entity";
-import { AccountGetInputDto } from "../dto/account-get-input-dto.ts";
+import { AccountGetInputDto } from "../dto/account-get-input-dto";
 
 @Injectable()
 export class GetAccountUseCase {

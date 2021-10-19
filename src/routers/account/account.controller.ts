@@ -3,7 +3,7 @@ import { ApiResponse, ApiTags } from "@nestjs/swagger";
 import { AccountGetInputDto } from "src/core/context/account/dto/account-get-input-dto";
 import { AccountUpdateBalanceInputDto } from "src/core/context/account/dto/account-update-balance-input-dto";
 import { TransferBalanceInputDto } from "src/core/context/account/dto/transfer-balance-input-dto";
-import { GetAccountUseCase, EditAccountUseCase, AccountInputDto,  DeleteAccountUseCase, TransferAccountUseCase }
+import { GetAccountUseCase, EditAccountUseCase,   DeleteAccountUseCase, TransferAccountUseCase }
     from "../../core/context/account/";
 
 @ApiTags('account')

@@ -45,29 +45,39 @@ $ npm run start:dev
 $ npm run start:prod
 ```
 
-## Test
+##Regras De Negocio
+###** Usuario:**
+ + ####1. Criar Usuario;
+  * 1.1 Usuario não pode existir na base de dados
+    * 1.2 Criar conta;
+      * 1.2.1 Conta inicial tera o valor de 0;
+      *  1.2.2 E-mail e CPF unicos;
+        *  1.2.2.1 CPF e E-mail tem de ser valido;
+        *   1.2.2.2 Retorna status 409, Usuario existe;
+        *   1.2.2.3 Retorna status 406, O CPF é invalido;
+      * 1.2.3 Retorna 201, Usuario criado;
 
-```bash
-# unit tests
-$ npm run test
++ ####2.Buscar Usuario na base pelo cpf;
+  * 2.1 CPF tende de ser unico e valido;
+     * 2.1.1 Retorna status 406, O CPF é invalido;
+  * 2.2 Retorna 200, Dados de Usuario;
+  * 2.3 Buscar todos os usuarios;
 
-# e2e tests
-$ npm run test:e2e
+### Conta:
 
-# test coverage
-$ npm run test:cov
-```
++ ##### Usuario existente na base de dados:
+     * Ter conta com qualquer valor;
+     * Buscar na conta, CPF e Email validos dentro do Usuario;
 
-## Support
++ ##### Sacar e depositar:
+    *  Valores de sacar não podem ser maior que o saldo atual;
+       * Valores para depositos não podem ser negativos;
 
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
++ ##### Transferencia:
+   *  Valores não podem ser maiores que saldo atual; Deposito, Sacar.
+       * Não pode transferir para o mesmo cpf;
+        * Não pode transferir para o cpf que não exista;
+       * 6 Digitos cada numero sera aleatorio e não existir
 
-## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://kamilmysliwiec.com)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](LICENSE).
+Feito: [Zero](http://instagram.com/zero_raven23/ "Zero")
+E-mail:  luizcavina@gmail.com
