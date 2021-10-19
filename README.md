@@ -46,7 +46,7 @@ $ npm run start:prod
 ```
 
 ## Regras De Negocio
-### Usuario:
+### ** Usuario:**
  + #### 1. Criar Usuario;
   * 1.1 Usuario não pode existir na base de dados
     * 1.2 Criar conta;
@@ -78,6 +78,8 @@ $ npm run start:prod
        * Não pode transferir para o mesmo cpf;
         * Não pode transferir para o cpf que não exista;
        * 6 Digitos cada numero sera aleatorio e não existir
+	   
++ #### Banco de dados ja incluido dentro do projeto
 
-+ Feito: [Zero](http://instagram.com/zero_raven23/ "Zero")
-+ E-mail:  luizcavina@gmail.com
+Feito: [Zero](http://instagram.com/zero_raven23/ "Zero")
+E-mail:  luizcavina@gmail.com
